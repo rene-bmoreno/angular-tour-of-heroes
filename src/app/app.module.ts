@@ -13,12 +13,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     HeroesComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroDetailComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HeroDetailComponent,
     AppRoutingModule,
   ],
   providers: [
